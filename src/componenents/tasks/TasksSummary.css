@@ -1,0 +1,14 @@
+.tasks-summary-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.2rem 2rem;
+  border: solid #282c34;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.tasks-summary-card-p {
+  font-weight: bold;
+}

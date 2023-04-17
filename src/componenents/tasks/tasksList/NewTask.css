@@ -1,0 +1,45 @@
+.new-task-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border: solid #282c34;
+  padding: 1rem 0;
+  /*width: 10rem*/
+}
+
+.new-text {
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 1px;
+}
+
+.new-number {
+  flex-basis: 6%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 1px;
+}
+
+.new-rest {
+  flex-basis: 18%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.new-input {
+  border: 0.15rem solid #24262f;
+  background-color: aliceblue;
+  color: #24262f;
+  padding: 0.1rem 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.new-input:focus {
+  outline: none;
+}
+
+.small-margin {
+  margin-top: 1px;
+}

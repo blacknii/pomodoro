@@ -1,0 +1,15 @@
+.button-style {
+  border-width: 0.15rem !important;
+  border: 0.15rem solid #24262f;
+  background-color: aliceblue;
+  color: #24262f;
+  padding: 0.1rem 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.button-style:hover {
+  color: #24262f;
+  background-color: #dfe6ee;
+  cursor: pointer;
+}

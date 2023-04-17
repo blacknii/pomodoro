@@ -1,0 +1,49 @@
+.task-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid #282c34;
+  margin-bottom: 0.5rem;
+}
+
+.task-card:hover {
+  cursor: pointer;
+}
+
+.text {
+  flex-basis: 60%;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.rest {
+  flex-basis: 10%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.task-done {
+  border: solid rgba(52, 56, 66, 0.7);
+  color: rgba(52, 56, 66, 0.7);
+  /*background-color: red;*/
+}
+
+.task-done:hover {
+  border: solid rgba(52, 56, 66, 0.7);
+  color: rgba(52, 56, 66, 0.7);
+  /*background-color: red;*/
+}
+
+.task-done-button:hover {
+  background-color: rgba(53, 66, 53, 0.25);
+  /*background-color: red;*/
+}
+
+.task-del-button:hover {
+  background-color: rgba(136, 77, 68, 0.25);
+  /*background-color: red;*/
+}
+
+.task-is-selected {
+  text-decoration: underline;
+}

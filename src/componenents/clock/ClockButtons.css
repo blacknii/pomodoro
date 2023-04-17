@@ -1,0 +1,19 @@
+.clock-buttons {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.clock-selected-button {
+  text-decoration: underline;
+}
+
+.clock-button {
+  font-weight: bold;
+  background-color: aliceblue;
+  color: #24262f;
+}
+
+.clock-button:hover {
+  color: #24262f;
+  background-color: #e5edf5;
+}
