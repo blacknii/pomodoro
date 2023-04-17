@@ -9,7 +9,7 @@ The app includes the following features:
 
 - **To-Do List**: Users can add and check tasks to do during their focus time to help them stay organized and focused.
 
-- **Progress Tracking**: Users can track their progress over time, including the number of Pomodoros completed and task completion rate.
+- **Progress Tracking**: Users can track their progress over time, including the number of pomodoros completed and task completion rate.
 
 Technologies Used
 The project was built using the following technologies:
